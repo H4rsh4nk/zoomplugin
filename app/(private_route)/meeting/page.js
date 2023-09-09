@@ -1,6 +1,5 @@
 //Meeting Register/Join in Page
 "use client";
-import Alert from "@/components/Alert";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
