@@ -30,7 +30,7 @@ export const POST = async (req: Request): Promise<NewResponse> => {
             { error: "User already exists" },
             { status: 422 }
         );
-    
+
     const user = await UserModel.create({ ...body });
 
     return NextResponse.json({
