@@ -1,4 +1,4 @@
-[Aimpower Zoom Web Apps](https://zoomplugin.vercel.app/)
+Aimpower Zoom Web Apps [Link](https://zoomplugin.vercel.app/)
 ## Getting Started
 
 Run following commands in terminal :
