@@ -16,6 +16,7 @@
     "autoprefixer": "10.4.14",
     "axios": "^1.4.0",
     "bcrypt": "^5.1.0",
+    "envsub": "^4.1.0",
     "jsrsasign": "^10.8.6",
     "ml5": "^0.12.2",
     "mongoose": "^7.4.1",
