@@ -32,8 +32,8 @@ const SignUp = () => {
 
 return (
         <div className="flex items-center justify-center min-h-screen bg-gray-100">
-            <div className="max-w-md w-full p-6 bg-white rounded-lg shadow-lg" style={{ backgroundColor: "#35377D" }}>
-                <h2 className="text-2xl font-semibold mb-6" style={{ color: 'white' }}>Sign Up</h2>
+            <div className="max-w-md w-full p-6 bg-[#35377D] rounded-lg shadow-lg">
+                <h2 className="text-2xl font-semibold mb-6 text-white">Sign Up</h2>
                 {isUserCreated && (
                     <Alert value="User created successfully!"  />
                 )}
