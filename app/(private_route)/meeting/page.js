@@ -3,6 +3,7 @@
 // App.js
 import { useSession } from "next-auth/react";
 import JoinMeeting from "./JoinMeeting";
+import MessageComponent from "./MessageComponent"; // Import the new component
 import { SettingsSharp, PersonSharp } from "react-ionicons";
 
 function App() {
@@ -70,6 +71,8 @@ function App() {
                     </div>
                 </div>
             </div>
+            <MessageComponent />
+
         </div>
     );
 }
