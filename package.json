@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postprepare": "node scripts/gen-secrets.cjs"
   },
   "dependencies": {
     "@types/node": "20.4.5",
@@ -16,6 +17,7 @@
     "autoprefixer": "10.4.14",
     "axios": "^1.4.0",
     "bcrypt": "^5.1.0",
+    "envsub": "^4.1.0",
     "jsrsasign": "^10.8.6",
     "mongoose": "^7.4.1",
     "next": "13.4.12",
